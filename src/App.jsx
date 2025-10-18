@@ -15,6 +15,7 @@ const fetchPlayers = async () =>{
 
 function App() {
   const [count, setCount] = useState(0)
+  const [toggle, setToggle] = useState(true)
 
   const playersPromise = fetchPlayers()
 
@@ -25,16 +26,21 @@ function App() {
 
       <Banner></Banner>
 
-      <Suspense fallback={
-          <div className='flex justify-center items-center'>
-            <span className="loading loading-bars loading-xl"></span>
-          </div>
-        }>
-        <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
-      </Suspense>
+      <div className="flex flex-col gap-2 md:flex-row my-[30px] mx-[40px] md:mt-[50px] md:mx-[140px] justify-between items-center">
+        <h1 className='font-black text-[28px]'>Available Players</h1>
+        <div className='flex gap-0'>
+          <button onClick={() => setToggle(true)} className={`font-bold text-[16px] border border-green-500 border-r-0 px-4 py-3 rounded-l-[10px] ${toggle===true?"bg-[#E7FE29]/50":""}`}>Available</button>
+          <button onClick={() => setToggle(false)} className={`font-bold text-[16px] border border-green-500 border-l-0 px-4 py-3 rounded-r-[10px] ${toggle===false?"bg-[#E7FE29]/50":""}`}>Selected (0)</button>
+        </div>
+      </div>
 
-      <SelectedPlayers></SelectedPlayers>
+      {
+        toggle === true ? <Suspense fallback={<div className='flex justify-center items-center'>
+                                <span className="loading loading-bars loading-xl"></span></div>}>
+                            <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers></Suspense>
+                            : <SelectedPlayers></SelectedPlayers>
 
+      }
     </>
   )
 }
