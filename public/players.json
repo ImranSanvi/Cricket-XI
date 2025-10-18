@@ -15,7 +15,7 @@
     "playing_role": "Wicketkeeper Batsman",
     "rating": 8.8,
     "batting_style": "Right-hand Bat",
-    "price": "75 Lakh BDT"
+    "price": "55 Lakh BDT"
   },
   {
     "player_image": "https://ichef.bbci.co.uk/ace/standard/2560/cpsprodpb/da5f/live/c6506010-6274-11f0-b9ec-2f50122ae57d.jpg",
@@ -24,7 +24,7 @@
     "playing_role": "All-Rounder",
     "rating": 9.5,
     "batting_style": "Right-hand Bat",
-    "price": "70,000 USD"
+    "price": "70 Lakh BDT"
   },
   {
     "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/368900/368938.jpg",
@@ -42,7 +42,7 @@
     "playing_role": "Batsman",
     "rating": 9.3,
     "batting_style": "Right-hand Bat",
-    "price": "80,000 USD"
+    "price": "80 Lakh BDT"
   },
   {
     "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI17Tbwp7pGc8icXYW6mCV0NoDpqcWBx4aWbNCS6Pb6mS1I6PGMJqD-iULLKRJQN0hbY&usqp=CAU",
@@ -60,7 +60,7 @@
     "playing_role": "All-Rounder",
     "rating": 9.0,
     "batting_style": "Left-hand Bat",
-    "price": "50,000 USD"
+    "price": "60 Lakh BDT"
   },
   {
     "player_image": "https://media.sportstiger.com/media/taskin-ahmed-to-become-sole-bangladesh-cricketer-to-get-a-central-contract-1741184265918-large.webp",
@@ -69,7 +69,7 @@
     "playing_role": "Bowler",
     "rating": 8.5,
     "batting_style": "Right-hand Bat",
-    "price": "45 Lakh BDT"
+    "price": "55 Lakh BDT"
   },
   {
     "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkwXo_J-PSN8v4rGh1yVLzOvauc75_n1yPA&s",
@@ -87,7 +87,7 @@
     "playing_role": "Wicketkeeper Batsman",
     "rating": 9.2,
     "batting_style": "Right-hand Bat",
-    "price": "75,000 USD"
+    "price": "75 Lakh BDT"
   },
   {
     "player_image": "https://i.guim.co.uk/img/media/a4601ccb3b6f56e2acd3aeea06632ba494c3cad4/21_144_2326_1395/master/2326.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=65ae0dd22774551bf66f1861e873cb02",
@@ -96,7 +96,7 @@
     "playing_role": "All-Rounder",
     "rating": 8.4,
     "batting_style": "Right-hand Bat",
-    "price": "90,000 USD"
+    "price": "90 Lakh BDT"
   },
   {
     "player_image": "https://times-network.s3.ap-southeast-1.amazonaws.com/player-profile/70206.jpg",
@@ -105,6 +105,6 @@
     "playing_role": "Batsman",
     "rating": 7.9,
     "batting_style": "Left-hand Bat",
-    "price": "35 Lakh BDT"
+    "price": "60 Lakh BDT"
   }
 ]

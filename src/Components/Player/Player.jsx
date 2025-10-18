@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Player = ({player}) => {
+const Player = ({player, availableBalance, setAvailableBalance}) => {
+    const [isSelected, setIsSelected] = useState(false)
+    const handleClick = (PlayerData) => { 
+        const playerPrice = parseInt(PlayerData.price.split("Lakh BDT").join(""))
+        if(playerPrice > availableBalance){
+            alert('Insufficient Balance')
+        }
+        else{
+            setIsSelected(true),
+            setAvailableBalance(availableBalance-playerPrice)
+        }
+    }
+
     return (
         <div className='p-4 rounded-[10px] space-y-3  border border-green-300'>
             <img className='w-[376px] h-[240px] rounded-[10px]' src={player["player_image"]} alt="" />
@@ -19,7 +31,7 @@ const Player = ({player}) => {
             </div>
             <div className='flex flex-col gap-2 md:flex-row justify-between items-center'>
                 <h1 className='font-semibold text-[16px]'>Price : {player.price} </h1>
-                <button className='p-2 bg-purple-400 rounded-[10px]'>Choose player</button>
+                <button disabled={isSelected} onClick={() => handleClick(player)} className='p-2 bg-purple-400 rounded-[10px]'>{isSelected ? "Selected" : "Choose player"}</button>
             </div>
         </div>
     );
