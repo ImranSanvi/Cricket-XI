@@ -36,7 +36,7 @@
     "price": "65 Lakh BDT"
   },
   {
-    "player_image": "https://example.com/images/babr_azam.jpg",
+    "player_image": "https://st3.cricketcountry.com/wp-content/uploads/2024/02/Babar-Azam-1.jpg",
     "player_name": "Babar Azam",
     "player_country": "Pakistan",
     "playing_role": "Batsman",
@@ -45,7 +45,7 @@
     "price": "80,000 USD"
   },
   {
-    "player_image": "https://example.com/images/mehidy_hasan_miraz.jpg",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI17Tbwp7pGc8icXYW6mCV0NoDpqcWBx4aWbNCS6Pb6mS1I6PGMJqD-iULLKRJQN0hbY&usqp=CAU",
     "player_name": "Mehidy Hasan Miraz",
     "player_country": "Bangladesh",
     "playing_role": "All-Rounder",
@@ -54,7 +54,7 @@
     "price": "55 Lakh BDT"
   },
   {
-    "player_image": "https://example.com/images/sunil_narine.jpg",
+    "player_image": "https://admin.dailycricket.com.bd/storage/posts/11026/Sunil-Narine.jpg",
     "player_name": "Sunil Narine",
     "player_country": "West Indies",
     "playing_role": "All-Rounder",
@@ -63,7 +63,7 @@
     "price": "50,000 USD"
   },
   {
-    "player_image": "https://example.com/images/taskin_ahmed.jpg",
+    "player_image": "https://media.sportstiger.com/media/taskin-ahmed-to-become-sole-bangladesh-cricketer-to-get-a-central-contract-1741184265918-large.webp",
     "player_name": "Taskin Ahmed",
     "player_country": "Bangladesh",
     "playing_role": "Bowler",
@@ -72,7 +72,7 @@
     "price": "45 Lakh BDT"
   },
   {
-    "player_image": "https://example.com/images/towhid_hridoy.jpg",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkwXo_J-PSN8v4rGh1yVLzOvauc75_n1yPA&s",
     "player_name": "Towhid Hridoy",
     "player_country": "Bangladesh",
     "playing_role": "Batsman",
@@ -81,7 +81,7 @@
     "price": "40 Lakh BDT"
   },
   {
-    "player_image": "https://example.com/images/mohammad_rizwan.jpg",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHi5Xm9aWmzdCJSrvMbPN3qr2v46Ir3tyVQ&s",
     "player_name": "Mohammad Rizwan",
     "player_country": "Pakistan",
     "playing_role": "Wicketkeeper Batsman",
@@ -90,16 +90,16 @@
     "price": "75,000 USD"
   },
   {
-    "player_image": "https://example.com/images/shoaib_malik.jpg",
-    "player_name": "Shoaib Malik",
-    "player_country": "Pakistan",
+    "player_image": "https://i.guim.co.uk/img/media/a4601ccb3b6f56e2acd3aeea06632ba494c3cad4/21_144_2326_1395/master/2326.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=65ae0dd22774551bf66f1861e873cb02",
+    "player_name": "Joe Root",
+    "player_country": "England",
     "playing_role": "All-Rounder",
     "rating": 8.4,
     "batting_style": "Right-hand Bat",
-    "price": "45,000 USD"
+    "price": "90,000 USD"
   },
   {
-    "player_image": "https://example.com/images/tanzid_hasan.jpg",
+    "player_image": "https://times-network.s3.ap-southeast-1.amazonaws.com/player-profile/70206.jpg",
     "player_name": "Tanzid Hasan",
     "player_country": "Bangladesh",
     "playing_role": "Batsman",
