@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0vO4guTr1IlrnODzaMQI2t7ale9j44J0uUQ&s",
     "player_name": "Steven Smith",
     "player_country": "Australia",
@@ -9,6 +10,7 @@
     "price": "90 Lakh BDT"
   },
   {
+    "id": 2,
     "player_image": "https://i0.wp.com/crictoday.com/wp-content/uploads/2023/03/Liton-Das-2.jpg?fit=1200%2C675&ssl=1",
     "player_name": "Litton Das",
     "player_country": "Bangladesh",
@@ -18,6 +20,7 @@
     "price": "55 Lakh BDT"
   },
   {
+    "id": 3,
     "player_image": "https://ichef.bbci.co.uk/ace/standard/2560/cpsprodpb/da5f/live/c6506010-6274-11f0-b9ec-2f50122ae57d.jpg",
     "player_name": "Andre Russell",
     "player_country": "West Indies",
@@ -27,6 +30,7 @@
     "price": "70 Lakh BDT"
   },
   {
+    "id": 4,
     "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/368900/368938.jpg",
     "player_name": "Mustafizur Rahman",
     "player_country": "Bangladesh",
@@ -36,6 +40,7 @@
     "price": "65 Lakh BDT"
   },
   {
+    "id": 5,
     "player_image": "https://st3.cricketcountry.com/wp-content/uploads/2024/02/Babar-Azam-1.jpg",
     "player_name": "Babar Azam",
     "player_country": "Pakistan",
@@ -45,6 +50,7 @@
     "price": "80 Lakh BDT"
   },
   {
+    "id": 6,
     "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI17Tbwp7pGc8icXYW6mCV0NoDpqcWBx4aWbNCS6Pb6mS1I6PGMJqD-iULLKRJQN0hbY&usqp=CAU",
     "player_name": "Mehidy Hasan Miraz",
     "player_country": "Bangladesh",
@@ -54,6 +60,7 @@
     "price": "55 Lakh BDT"
   },
   {
+    "id": 7,
     "player_image": "https://admin.dailycricket.com.bd/storage/posts/11026/Sunil-Narine.jpg",
     "player_name": "Sunil Narine",
     "player_country": "West Indies",
@@ -63,6 +70,7 @@
     "price": "60 Lakh BDT"
   },
   {
+    "id": 8,
     "player_image": "https://media.sportstiger.com/media/taskin-ahmed-to-become-sole-bangladesh-cricketer-to-get-a-central-contract-1741184265918-large.webp",
     "player_name": "Taskin Ahmed",
     "player_country": "Bangladesh",
@@ -72,6 +80,7 @@
     "price": "55 Lakh BDT"
   },
   {
+    "id": 9,
     "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkwXo_J-PSN8v4rGh1yVLzOvauc75_n1yPA&s",
     "player_name": "Towhid Hridoy",
     "player_country": "Bangladesh",
@@ -81,6 +90,7 @@
     "price": "40 Lakh BDT"
   },
   {
+    "id": 10,
     "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHi5Xm9aWmzdCJSrvMbPN3qr2v46Ir3tyVQ&s",
     "player_name": "Mohammad Rizwan",
     "player_country": "Pakistan",
@@ -90,6 +100,7 @@
     "price": "75 Lakh BDT"
   },
   {
+    "id": 11,
     "player_image": "https://i.guim.co.uk/img/media/a4601ccb3b6f56e2acd3aeea06632ba494c3cad4/21_144_2326_1395/master/2326.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=65ae0dd22774551bf66f1861e873cb02",
     "player_name": "Joe Root",
     "player_country": "England",
@@ -99,6 +110,7 @@
     "price": "90 Lakh BDT"
   },
   {
+    "id": 12,
     "player_image": "https://times-network.s3.ap-southeast-1.amazonaws.com/player-profile/70206.jpg",
     "player_name": "Tanzid Hasan",
     "player_country": "Bangladesh",

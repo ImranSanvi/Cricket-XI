@@ -1,6 +1,7 @@
 import { Suspense, useState } from 'react'
 
 import './App.css'
+import { ToastContainer} from 'react-toastify';
 import Navbar from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import AvailablePlayers from './Components/AvailablePlayers/AvailablePlayers'
@@ -19,7 +20,7 @@ function App() {
   const [count, setCount] = useState(0)
   const total = 6
   const [toggle, setToggle] = useState(true)
-  const [availableBalance, setAvailableBalance] = useState(350)
+  const [availableBalance, setAvailableBalance] = useState(550)
   const [purchasedPlayers, setPurchasedPlayers] = useState([])
 
   return (
@@ -42,9 +43,12 @@ function App() {
         toggle === true ? <Suspense fallback={<div className='flex justify-center items-center'>
                                 <span className="loading loading-bars loading-xl"></span></div>}>
                             <AvailablePlayers playersPromise={playersPromise} availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} count={count} setCount={setCount}></AvailablePlayers></Suspense>
-                            : <SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
+                            : <SelectedPlayers purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} count={count} setCount={setCount} availableBalance={availableBalance} setAvailableBalance={setAvailableBalance}></SelectedPlayers>
 
       }
+
+      <ToastContainer/>
+
     </>
   )
 }
