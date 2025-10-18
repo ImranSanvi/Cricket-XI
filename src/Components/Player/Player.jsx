@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Player = ({player, availableBalance, setAvailableBalance}) => {
+const Player = ({player, availableBalance, setAvailableBalance,  purchasedPlayers, setPurchasedPlayers, count, setCount}) => {
     const [isSelected, setIsSelected] = useState(false)
     const handleClick = (PlayerData) => { 
         const playerPrice = parseInt(PlayerData.price.split("Lakh BDT").join(""))
@@ -10,6 +10,9 @@ const Player = ({player, availableBalance, setAvailableBalance}) => {
         else{
             setIsSelected(true),
             setAvailableBalance(availableBalance-playerPrice)
+            setPurchasedPlayers([...purchasedPlayers , PlayerData])
+            count++;
+            setCount(count)
         }
     }
 
